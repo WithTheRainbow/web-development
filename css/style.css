@@ -1,0 +1,69 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+header {
+	font-family: 'Palatino Linotype';
+	background: rgb(138, 116, 124);
+	border: 3px solid rgb(64, 61, 62);
+	padding-left: 4px;
+	text-align: center;
+}
+
+body {
+	font-family: 'Baskerville', Georgia, serif;
+	background: rgb(189, 57, 95);
+	color: rgb(46, 44, 45);
+	margin: 16px;
+}
+
+#container {
+	border: 4px solid rgb(46, 44, 45);
+	background: rgb(115, 96, 103);
+	width: 100%;
+	max-width: 1030px; /* You can change this number */
+	margin: auto;
+}
+main {
+	padding: 0px 4px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 12px;
+}
+
+a {
+	color: rgb(207, 171, 178);
+}
+
+a:hover {
+	color: rgb(201, 123, 138);
+}
+
+figure img {
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+figcaption, footer {
+	font-size: 0.75em;
+}
+
+footer {
+	margin-left: 888px;
+}
+
+figcaption {
+	text-align: center;
+}
