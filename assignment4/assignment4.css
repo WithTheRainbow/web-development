@@ -1,0 +1,235 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:90%;
+	width: 100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 2.4em;
+	width: 900px;
+}
+
+body {
+	font-family: 'Crimson Text', serif;	
+	font-size: 30pt;
+	background: rgb(133, 90, 76)
+}
+
+header {
+	position: fixed;
+	top: -30px;
+	left: 5px;
+}
+
+.constant {
+	position: relative;
+	right: 15px;
+	bottom: 65px;
+	color: rgb(252, 111, 63);
+	font-size: 30pt;
+	width: 50%;
+}
+
+.rare {
+	position: absolute;
+	right: 220px;
+	top: 120px;
+	font-size: 20pt;
+	color: rgb(227, 142, 113);
+}
+
+.sun {
+	position: absolute;
+	left: 180px;
+	top: 280px;
+	color: rgb(255, 65, 0);
+	font-size: 100pt;
+	font-weight: 700;
+}
+
+.seems {
+	position: absolute;
+	left: 480px;
+	top: 360px;
+	color: rgb(255, 88, 31);
+}
+
+.to {
+	position: absolute;
+	left: 600px;
+	top: 380px;
+	color: rgb(255, 114, 66);
+}
+
+.move {
+	position: absolute;
+	left: 675px;
+	top: 370px;
+	color: rgb(255, 141, 102);
+}
+
+.in {
+	position: absolute;
+	left: 815px;
+	top: 380px;
+	color: rgb(255, 164, 133);
+}
+
+.so {
+	position: absolute;
+	left: 915px;
+	top: 390px;
+	color: rgb(255, 187, 164);
+}
+
+.many {
+	position: absolute;
+	left: 1030px;
+	top: 380px;
+	color: rgb(255, 215, 201);
+}
+
+.ways {
+	position: absolute;
+	left: 1220px;
+	top: 400px;
+	color: rgb(255, 244, 240);
+}
+
+.too {
+	position: absolute;
+	left: 70px;
+	top: 410px;
+	font-size: 20pt;
+	color: rgb(255, 255, 255);
+}
+
+.world {
+	position: absolute;
+	left: 90px;
+	top: 430px;
+	color: rgb(255, 255, 255);
+}
+
+.once {
+	position: absolute;
+	left: 350px;
+	top: 460px;
+	color: rgb(255, 255, 255);
+}
+
+.missing {
+	position: absolute;
+	left: 440px;
+	top: 530px;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+
+.comma {
+	position: absolute;
+	left: 575px;
+	top: 460px;
+	color: rgb(255, 255, 255);
+}
+
+.now {
+	position: absolute;
+	left: 655px;
+	top: 480px;
+	color: rgb(255, 255, 255);
+}
+
+.there1 {
+	position: absolute;
+	left: 742px;
+	top: 480px;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+
+.there2 {
+	position: absolute;
+	left: 747px;
+	top: 480px;
+	color: rgb(255, 255, 255);
+}
+
+.am {
+	position: absolute;
+	right: 435px;
+	bottom: 300px;
+	color: rgb(255, 255, 255);
+}
+
+.moon {
+	position: absolute;
+	right: 155px;
+	bottom: 260px;
+	color: rgb(255, 255, 255);
+	font-size: 100pt;
+}
+
+.while {
+	position: absolute;
+	right: 435px;
+	bottom: 200px;
+	color: rgb(255, 255, 255);
+}
+
+.gone {
+	position: absolute;
+	right: 343px;
+	bottom: 230px;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+
+.days {
+	position: absolute;
+	right: 165px;
+	bottom: 200px;
+	color: rgb(255, 255, 255);
+}
+
+.the {
+	position: absolute;
+	left: 65px;
+	bottom: 160px;
+	color: rgb(255, 255, 255);
+}
+
+.stars {
+	position: absolute;
+	left: 17px;
+	bottom: 7px;
+	color: rgb(255, 229, 219);
+}
+
+.girl {
+	position: absolute;
+	left: 500px;
+	bottom: 65px;
+	color: rgb(245, 186, 164);
+}
+
+footer {
+	position: absolute;
+	right: 45px;
+	bottom: 0px;
+	font-size: 20pt;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+
+#container {
+	
+}
+
+
+
+
