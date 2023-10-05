@@ -25,19 +25,27 @@ header {
 	left: 5px;
 }
 
+
+#container {
+	position: relative;
+	width: 1421px;
+	height: 795px;
+}
+
 .constant {
 	position: relative;
+	display: inline-block;
 	right: 15px;
 	bottom: 65px;
 	color: rgb(252, 111, 63);
 	font-size: 30pt;
-	width: 50%;
+	width: 65%;
 }
 
 .rare {
 	position: absolute;
-	right: 220px;
-	top: 120px;
+	right: 201px;
+	top: 80px;
 	font-size: 20pt;
 	color: rgb(227, 142, 113);
 }
@@ -45,7 +53,7 @@ header {
 .sun {
 	position: absolute;
 	left: 180px;
-	top: 280px;
+	top: 240px;
 	color: rgb(255, 65, 0);
 	font-size: 100pt;
 	font-weight: 700;
@@ -54,56 +62,56 @@ header {
 .seems {
 	position: absolute;
 	left: 480px;
-	top: 360px;
+	top: 320px;
 	color: rgb(255, 88, 31);
 }
 
 .to {
 	position: absolute;
 	left: 600px;
-	top: 380px;
+	top: 340px;
 	color: rgb(255, 114, 66);
 }
 
 .move {
 	position: absolute;
 	left: 675px;
-	top: 370px;
+	top: 330px;
 	color: rgb(255, 141, 102);
 }
 
 .in {
 	position: absolute;
 	left: 815px;
-	top: 380px;
+	top: 340px;
 	color: rgb(255, 164, 133);
 }
 
 .so {
 	position: absolute;
 	left: 915px;
-	top: 390px;
+	top: 350px;
 	color: rgb(255, 187, 164);
 }
 
 .many {
 	position: absolute;
 	left: 1030px;
-	top: 380px;
+	top: 340px;
 	color: rgb(255, 215, 201);
 }
 
 .ways {
 	position: absolute;
 	left: 1220px;
-	top: 400px;
+	top: 360px;
 	color: rgb(255, 244, 240);
 }
 
 .too {
 	position: absolute;
 	left: 70px;
-	top: 410px;
+	top: 370px;
 	font-size: 20pt;
 	color: rgb(255, 255, 255);
 }
@@ -111,21 +119,21 @@ header {
 .world {
 	position: absolute;
 	left: 90px;
-	top: 430px;
+	top: 390px;
 	color: rgb(255, 255, 255);
 }
 
 .once {
 	position: absolute;
 	left: 350px;
-	top: 460px;
+	top: 420px;
 	color: rgb(255, 255, 255);
 }
 
 .missing {
 	position: absolute;
 	left: 440px;
-	top: 530px;
+	top: 490px;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
 }
@@ -133,21 +141,21 @@ header {
 .comma {
 	position: absolute;
 	left: 575px;
-	top: 460px;
+	top: 420px;
 	color: rgb(255, 255, 255);
 }
 
 .now {
 	position: absolute;
 	left: 655px;
-	top: 480px;
+	top: 440px;
 	color: rgb(255, 255, 255);
 }
 
 .there1 {
 	position: absolute;
 	left: 742px;
-	top: 480px;
+	top: 440px;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
 }
@@ -155,20 +163,20 @@ header {
 .there2 {
 	position: absolute;
 	left: 747px;
-	top: 480px;
+	top: 440px;
 	color: rgb(255, 255, 255);
 }
 
 .am {
 	position: absolute;
-	right: 435px;
+	left: 936px;
 	bottom: 300px;
 	color: rgb(255, 255, 255);
 }
 
 .moon {
 	position: absolute;
-	right: 155px;
+	left: 832px;
 	bottom: 260px;
 	color: rgb(255, 255, 255);
 	font-size: 100pt;
@@ -176,14 +184,14 @@ header {
 
 .while {
 	position: absolute;
-	right: 435px;
+	right: 416px;
 	bottom: 200px;
 	color: rgb(255, 255, 255);
 }
 
 .gone {
 	position: absolute;
-	right: 343px;
+	right: 324px;
 	bottom: 230px;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
@@ -191,7 +199,7 @@ header {
 
 .days {
 	position: absolute;
-	right: 165px;
+	right: 146px;
 	bottom: 200px;
 	color: rgb(255, 255, 255);
 }
@@ -218,16 +226,12 @@ header {
 }
 
 footer {
-	position: absolute;
-	right: 45px;
-	bottom: 0px;
-	font-size: 20pt;
+	position: fixed;
+	right: 26px;
+	bottom: -9px;
+	font-size: 24pt;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
-}
-
-#container {
-	
 }
 
 
