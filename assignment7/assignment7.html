@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>JUDGEMENT</title>
+
+	<link rel="stylesheet" href="assignment7.css">
+
+	<script>
+
+		function judgement() {
+			var answers = [
+				"Totally cringe.",
+				"Guilty. Go directly to jail. Do not pass go.",
+                "You're admitting that? How embarassing.",
+                "Well, certainly not the worst thing in the world...",
+                "I guess I can see it.",
+                "Interesting. Maybe I'll look into it.",
+                "You're speaking my language.",
+                "What a cool cat.",
+				"Based.",
+                "Almost as good as strawberries!"
+		];
+			var createAnswer = answers[Math.floor(Math.random() * answers.length)];
+			document.getElementById("judgementA").textContent = "THE JUDGE SAYS,";
+			document.getElementById("judgementB").textContent = createAnswer;
+		}
+
+	</script>
+
+</head>
+
+
+<body>
+
+	<form>
+		<h1>THE JUDGEMENT ZONE</h1>
+		<h2>Enter the name of something you enjoy, and be <em>JUDGED!</em></h2>
+		<h1><input type="text"></h1>
+		<input type="button" onclick="judgement()" value="CLICK FOR JUDGEMENT!">
+		<p id="judgementA"></p>
+		<p id="judgementB"></p>
+	</form>
+  
+
+</body>
+	
+</html> 
