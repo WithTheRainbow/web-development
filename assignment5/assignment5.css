@@ -1,0 +1,251 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:90%;
+	width: 100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 2.4em;
+	width: 900px;
+}
+
+body {
+	font-size: 30pt;
+	background: rgb(13, 54, 120);
+}
+
+
+div#sq1 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+div#sq1:hover {
+	background-color: rgb(161, 110, 80);
+	height: 400px;
+	width: 400px;
+}
+
+div#sq2 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 260px;
+	top: 20px;
+}
+div#sq2:hover {
+	background-color: rgb(213, 254, 120);
+	height: 650px;
+}
+
+div#sq3 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 500px;
+	top: 20px;
+}
+	div#sq3:hover {
+		background-color: rgb(245, 66, 242);
+		width: 550px;
+	}
+
+div#sq4 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	right: 500px;
+	top: 20px;
+}
+div#sq4:hover {
+	background-color: rgb(110, 181, 160);
+	height: 450px;
+	width: 750px;
+}
+
+div#sq5 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 980px;
+	top: 20px;
+}
+	div#sq5:hover {
+		background-color: rgb(37, 20, 120);
+		height: 100px;
+		width: 100px;
+	}
+
+div#sq6 {
+	background-color: rgb(84, 96, 115);
+	transition: background-color .5s, top 5s;
+	position: absolute;
+	left: 1220px;
+	top: 20px;
+}
+	div#sq6:hover {
+		background-color: rgb(125, 26, 39);
+		top: -300px;
+	}
+
+div#sq7 {
+	background-color: rgb(84, 96, 115);
+	transition: background-color .5s, left 5s;
+	position: absolute;
+	left: 20px;
+	top: 300px;
+}
+div#sq7:hover {
+	background-color: rgb(125, 26, 39);
+	left: -300px;
+}
+
+div#sq8 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 260px;
+	top: 300px;
+}
+	div#sq8:hover {
+		background-color: rgb(37, 20, 120);
+		height: 100px;
+		width: 750px;
+	}
+
+div#sq9 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 500px;
+	top: 300px;
+}
+div#sq9:hover {
+	background-color: rgb(213, 254, 120);
+	height: 400px;
+	width: 400px;
+}
+
+div#sq10 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	right: 500px;
+	top: 300px;
+}
+div#sq10:hover {
+	background-color: rgb(245, 66, 242);
+	height: 100px;
+	width: 100px;
+}
+
+div#sq11 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	right: 260px;
+	top: 300px;
+}
+	div#sq11:hover {
+		background-color: rgb(161, 110, 80);
+		width: 680px;
+	}
+
+div#sq12 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	right: 20px;
+	bottom: 335px;
+}
+div#sq12:hover {
+	background-color: rgb(110, 181, 160);
+	height: 100px;
+	width: 1400px;
+}
+
+div#sq13 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 20px;
+	bottom: 55px;
+}
+div#sq13:hover {
+	background-color: rgb(110, 181, 160);
+	height: 400px;
+	width: 400px;
+}
+
+div#sq14 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	right: 980px;
+	bottom: 55px;
+}
+div#sq14:hover {
+	background-color: rgb(245, 66, 242);
+	height: 100px;
+	width: 100px;
+}
+
+div#sq15 {
+	background-color: rgb(84, 96, 115);
+	transition: background-color .5s, left 5s, top 5s;
+	position: absolute;
+	left: 500px;
+	top: 580px;
+}
+	div#sq15:hover {
+		background-color: rgb(125, 26, 39);
+		left: 740px;
+		top: 20px;
+	}
+
+div#sq16 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 740px;
+	bottom: 55px;
+}
+div#sq16:hover {
+	background-color: rgb(161, 110, 80);
+	height: 100px;
+	width: 100px;
+}
+
+div#sq17 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	left: 980px;
+	bottom: 55px;
+}
+div#sq17:hover {
+	background-color: rgb(213, 254, 120);
+	height: 760px;
+}
+
+div#sq18 {
+	background-color: rgb(84, 96, 115);
+	transition: all .5s;
+	position: absolute;
+	right: 20px;
+	bottom: 55px;
+}
+div#sq18:hover {
+	background-color: rgb(37, 20, 120);
+	height: 760px;
+	width: 1400px;
+}
+
+
+
