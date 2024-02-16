@@ -1,0 +1,109 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding: 0px;
+	height: 100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+header {
+	font-family: 'Lucida';
+	background: rgb(150, 35, 48);
+	border: 3px solid rgb(17, 33, 16);
+	padding-left: 4px;
+	text-align: center;
+}
+
+h3 {
+	color: rgb(284, 57, 60);
+	line-height: 0px;
+	margin-bottom: 0px;
+}
+
+h4 {
+	color: rgb(173, 43, 58);
+	font-size: .7em;
+	line-height: 0px;
+	margin-left: 160px;
+	margin-bottom: 10px;
+}
+
+body {
+	background-image: url("img/strawberryBanner.jpg");
+	color: rgb(255, 207, 212);
+	margin: 16px;
+}
+
+#container1 {
+	border: 6px solid rgb(31, 117, 28);
+	width: 60%;
+	margin: auto;
+}
+
+#container2 {
+	border: 6px solid rgb(31, 117, 28);
+	width: 40%;
+	margin: 10px auto -27px auto;
+}
+
+#container3 {
+	border: 6px solid rgb(31, 117, 28);
+	width: 70%;
+	margin: 20px auto auto auto;
+}
+
+main {
+	font-family: 'Lucida';
+	color: rgb(255, 207, 212);
+	background: rgb(150, 35, 48);
+	border: 3px solid rgb(17, 33, 16);
+	text-align: left;
+	padding: 10px 5px;
+}
+
+nav {
+	font-family: 'Tahoma';
+	font-size: 1.5em;
+	background: rgb(150, 35, 48);
+	border: 3px solid rgb(17, 33, 16);
+	padding-left: 4px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding-left: 12px;
+}
+
+li {
+	padding-bottom: 5px;
+}
+
+figure {
+	text-align: center;
+	color: rgb(284, 57, 60);
+	font-size: 0.75em;
+}
+
+figcaption {
+	padding-bottom: 15px;
+}
+
+a {
+	color: rgb(44, 150, 15);
+}
+
+a:hover {
+	color: rgb(104, 209, 75);
+}
+
+footer {
+	color: rgb(17, 33, 16);
+	font-size: 0.75em;
+	margin-left: 1250px;
+}
